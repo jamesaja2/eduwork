@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { width: 90%; margin: auto; }
+        header { background: #f4f4f4; padding: 10px; text-align: center; }
+        nav { text-align: right; padding: 10px; }
+        nav a { margin: 10px; text-decoration: none; color: black; }
+        .hero { display: flex; align-items: center; justify-content: space-between; padding: 20px; }
+        .hero img { width: 600px; height: 400px; background: #ddd; text-align: center; }
+        .about { text-align: center; padding: 20px; }
+        .table-container { width: 100%; display: flex; justify-content: center; }
+        table { width: 80%; border-collapse: collapse; }
+        td { border: 1px solid #000; padding: 10px; text-align: center; }
+        .portfolio { text-align: center; padding: 20px; }
+        .portfolio img { width: 350px; height: 200px; background: #ddd; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Brand</h1>
+            <nav>
+                <a href="#">Header</a>
+                <a href="#">Biodata</a>
+                <a href="#">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero container">
+        <div>
+            <h2>Selamat Datang di Website Saya</h2>
+            <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+            <a href="#">Pelajari Lebih Lanjut</a>
+        </div>
+        <img src="https://via.placeholder.com/600x400" alt="Image Placeholder">
+    </section>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <p>A brief introduction about myself</p>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <td>Full Name</td>
+                    <td>Education</td>
+                    <td>Pekerjaan</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td>Hobi</td>
+                    <td>Alamat</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <section class="portfolio">
+        <h2>Portofolio</h2>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi proyek 1.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi proyek 2.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+                <h3>Proyek 3</h3>
+                <p>Deskripsi proyek 3.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
